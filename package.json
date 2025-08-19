@@ -1,0 +1,23 @@
+{
+  "name": "test-adf-utils",
+  "version": "1.0.0",
+  "description": "test-adf-utils",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "clean": "rm -rf coverage dist tmp",
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "keywords": [],
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@atlaskit/adf-utils": "19.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.30",
+    "globals": "16.3.0",
+    "tsx": "4.20.4",
+    "typescript": "5.8.3"
+  }
+}
